@@ -1,0 +1,98 @@
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+.profile-container {
+  display: flex;
+  padding: 40px 60px;
+  gap: 80px;
+  align-items: flex-start;
+  margin-left: 400px;
+}
+.profile-picture img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #333;
+}
+.profile-details {
+  flex: 1;
+}
+.profile-top {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 35px;
+}
+
+.profile-top h2 {
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.profile-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.profile-buttons button {
+  background-color: #262626;
+  color: #fff;
+  border: 1px solid #444;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+.profile-buttons button:hover {
+  background-color: #333;
+}
+
+.profile-settings {
+  font-size: 22px;
+  color: #ccc;
+  cursor: pointer;
+}
+.profile-stats {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.profile-stats p {
+  margin: 0;
+  font-size: 15px;
+}
+.profile-name {
+  font-size: 15px;
+  font-weight: 500;
+}
+.profile-picture-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.profile-add-new {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.profile-add-new .bi-plus-circle {
+  font-size: 70px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.profile-add-new p {
+  font-size: 15px;
+  color: #ccc;
+  margin-top: 4px;
+}

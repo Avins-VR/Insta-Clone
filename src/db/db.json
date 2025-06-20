@@ -1,0 +1,70 @@
+{
+    "posts":[
+  {
+    "post_id": "001",
+    "user": {
+      "username": "avins_dev",
+      "profile_picture": "./src/assets/profile1.jpg"
+    },
+    "image": "./src/assets/Chasing sunsets.jpg",
+    "caption": "Chasing sunsets 🌅",
+    "likes": 287,
+    "liked_by": ["sky_lover", "wanderer23"],
+    "comments": [
+      { "username": "beach_boy", "comment": "Amazing view!" }
+    ],
+    "timestamp": "2025-06-09T18:30:00Z"
+  },
+  {
+    "post_id": "002",
+    "user": {
+      "username": "nature_snapper",
+      "profile_picture": "./src/assets/profile2.jpg"
+    },
+    "image": "./src/assets/Walk through the wild.jpg",
+    "caption": "Walk through the wild 🌲",
+    "likes": 198,
+    "liked_by": ["eco_girl", "zen_vibes"],
+    "comments": [
+      { "username": "green_leaf", "comment": "So peaceful!" }
+    ],
+    "timestamp": "2025-06-08T12:45:00Z"
+  },
+  {
+    "post_id": "003",
+    "user": {
+      "username": "urban_rider",
+      "profile_picture": "./src/assets/profile3.jpg"
+    },
+    "image": "./src/assets/City lights never sleep.jpg",
+    "caption": "City lights never sleep 🌃",
+    "likes": 420,
+    "liked_by": ["nocturnal", "tech_guy"],
+    "comments": [
+      { "username": "street_runner", "comment": "Love this shot!" }
+    ],
+    "timestamp": "2025-06-07T22:10:00Z"
+  }
+],
+  "profile": {
+    "username": "avins_dev",
+    "profile_picture": "./src/assets/profile1.jpg"
+  },
+  "suggestions": [
+    {
+      "id": 1,
+      "username": "jane_doe",
+      "profile_picture": "./src/assets/profile2.jpg"
+    },
+    {
+      "id": 2,
+      "username": "john_smith",
+      "profile_picture": "./src/assets/profile3.jpg"
+    },
+    {
+      "id": 3,
+      "username": "alice_w",
+      "profile_picture": "./src/assets/profile4.jpg"
+      }
+  ]
+}
