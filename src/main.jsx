@@ -24,7 +24,7 @@ const router = createBrowserRouter([
   }
 ],
 {
-    basename: '/Instagram-Clone',
+    basename: '/Insta-Clone',
   });
 
 createRoot(document.getElementById('root')).render(
