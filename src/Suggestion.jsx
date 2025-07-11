@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import suggestion1 from './assets/suggestion1.jpg';
 import suggestion2 from './assets/suggestion2.jpg';
 import suggestion3 from './assets/suggestion3.jpg';
@@ -39,7 +40,7 @@ function Suggesion() {
       following: false
     }
   ]);
-
+  const navigate = useNavigate();
   const [profile, setProfile] = useState({
     username: "ram_dev",
     profile_picture: userProfile
@@ -59,7 +60,7 @@ function Suggesion() {
       <div className="suggestion-profile">
         <img src={profile.profile_picture} alt="Profile" />
         <h5>{profile.username}</h5>
-        <p>Switch</p>
+        <p onClick={() => navigate('/Profile')}>Switch</p>
       </div>
 
       <div className="suggestion-header">
